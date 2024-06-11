@@ -585,7 +585,7 @@ MonoBehaviour:
   gameOverStateDuration: 3
   timeToAuthorCard: 3
   authorCardDuration: 5
-  authorCardText: A game by Joshua Ferguson.
+  authorCardText: A game by Max Olney.
 --- !u!1 &331212290
 GameObject:
   m_ObjectHideFlags: 0
@@ -9498,7 +9498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debug: 0
-  defaultSpeed: 3.86
+  defaultSpeed: 4.5
   gravity: 27.3
   disableJump: 0
   jumpForce: 3.691
@@ -12737,7 +12737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2379525628533951195, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -25.671116
+      value: -25.742222
       objectReference: {fileID: 0}
     - target: {fileID: 2379525628533951195, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13669,8 +13669,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.7221075, z: 1}
+  m_Center: {x: 0, y: 0.1389463, z: 0}
 --- !u!23 &1669132661
 MeshRenderer:
   m_ObjectHideFlags: 0
