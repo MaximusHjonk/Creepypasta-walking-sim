@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{113E6975-ED18-99D6-F0FF-AEE475D8B928}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world interactions\\doorinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{113E6975-ED18-99D6-F0FF-AEE475D8B928}|Assembly-CSharp.csproj|c:\\users\\maxhu\\onedrive\\documents\\github\\creepypasta-walking-sim\\creepy pasta walking sim\\assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{113E6975-ED18-99D6-F0FF-AEE475D8B928}|Assembly-CSharp.csproj|C:\\Users\\maxhu\\OneDrive\\Documents\\GitHub\\Creepypasta-walking-sim\\Creepy Pasta Walking Sim\\assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{113E6975-ED18-99D6-F0FF-AEE475D8B928}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Interaction.cs",
               "ViewState": "AQIAACcAAAAAAAAAAABRwCoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T05:14:19.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T05:14:19.721Z"
             }
           ]
         }
