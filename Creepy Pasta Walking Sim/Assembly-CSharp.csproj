@@ -89,12 +89,14 @@
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFColorSpace.cginc" />
     <None Include="Assets\Import\Security_Camera_(with_Animations_&amp;_Textures)\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
+    <None Include="Assets\Import\Coca_Cola_Vending_Machine\license.txt" />
     <None Include="Assets\Import\Office_workspace\license.txt" />
     <None Include="Assets\Import\Low_Poly_Green_Running_Man_Exit_Sign\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll" />
     <None Include="Assets\Import\Note_Board-_7MB\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll" />
     <None Include="Assets\Import\Banana_Plant_With_Pot\license.txt" />
+    <None Include="Assets\Import\Sci-fi_Industrial_Door\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
     <None Include="Assets\Import\Low_Poly_Fire_Exit\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll" />

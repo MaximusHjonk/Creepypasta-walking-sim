@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sci-fi Industrial Door
+* source:	https://sketchfab.com/3d-models/sci-fi-industrial-door-e78e7d1df09c438aa00f40c88ff35d64
+* author:	NotARealStudio (https://sketchfab.com/NotARealStudio)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sci-fi Industrial Door" (https://sketchfab.com/3d-models/sci-fi-industrial-door-e78e7d1df09c438aa00f40c88ff35d64) by NotARealStudio (https://sketchfab.com/NotARealStudio) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
