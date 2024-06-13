@@ -61,8 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabExporter.cs" />
-    <Compile Include="Assets\Scripts\World Interactions\ButtonInteraction.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabPlugin.cs" />
+    <Compile Include="Assets\Scripts\World Interactions\ButtonInteraction.cs" />
     <Compile Include="Assets\Scripts\World Interactions\NoteInteraction.cs" />
     <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporterWindow.cs" />
     <Compile Include="Assets\Scripts\Player\Interaction.cs" />
@@ -85,15 +85,19 @@
     <Compile Include="Assets\Scripts\World Interactions\Interactable.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Import\Filing_Cabinet_-_6MB\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFFlipTexture.shader" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFColorSpace.cginc" />
     <None Include="Assets\Import\Security_Camera_(with_Animations_&amp;_Textures)\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
+    <None Include="Assets\Import\Office_workspace\license.txt" />
     <None Include="Assets\Import\Low_Poly_Green_Running_Man_Exit_Sign\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll" />
     <None Include="Assets\Import\Note_Board-_7MB\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll" />
+    <None Include="Assets\Import\Banana_Plant_With_Pot\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFBumpToNormal.shader" />
+    <None Include="Assets\Import\Low_Poly_Fire_Exit\license.txt" />
     <None Include="Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -437,16 +441,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="GLTFSerialization">
-      <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="SketchfabPlugin">
       <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\SketchfabPlugin.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Ionic.Zip.Unity">
       <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\Ionic.Zip.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GLTFSerialization">
+      <HintPath>Assets\Sketchfab For Unity\Dependencies\Libraries\GLTFSerialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
