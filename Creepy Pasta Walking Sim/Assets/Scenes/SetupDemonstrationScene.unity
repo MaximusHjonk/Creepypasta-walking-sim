@@ -1098,8 +1098,6 @@ GameObject:
   - component: {fileID: 204466360}
   - component: {fileID: 204466359}
   - component: {fileID: 204466358}
-  - component: {fileID: 204466357}
-  - component: {fileID: 204466361}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -1122,20 +1120,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1683372439}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &204466357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204466355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 018cbc5f745da774cb7949b846275a2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactClip: {fileID: 8300000, guid: d8be4d64aac9a1b459914e4ee2d10a76, type: 3}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!136 &204466358
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1209,23 +1193,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204466355}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &204466361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 204466355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc2f6dd03fd66c74f8b13a1cf22deeb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectionPanel: {fileID: 0}
-  mainCamera: {fileID: 0}
-  crosshair: {fileID: 0}
-  listOfWaypoints:
-  - {fileID: 204466357}
 --- !u!1001 &248947461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11077,7 +11044,7 @@ Transform:
   m_GameObject: {fileID: 660540418}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000058114523}
-  m_LocalPosition: {x: -40.5, y: 1, z: 19}
+  m_LocalPosition: {x: -24.39, y: 1, z: 5.73}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14490,7 +14457,6 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
-  - component: {fileID: 963194231}
   - component: {fileID: 963194226}
   m_Layer: 0
   m_Name: Main Camera
@@ -14611,22 +14577,6 @@ MonoBehaviour:
   interactionLayers:
     serializedVersion: 2
     m_Bits: 64
---- !u!114 &963194231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f942b88c340eca54e9cf1a17613c271d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  reach: 5
-  crosshair: {fileID: 0}
-  infoPanel: {fileID: 0}
-  audioClick: {fileID: 0}
 --- !u!1 &985617312
 GameObject:
   m_ObjectHideFlags: 0
@@ -17316,6 +17266,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  teleportExit: {fileID: 0}
 --- !u!65 &1204944047
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20354,18 +20305,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 204466361}
-        m_TargetAssemblyTypeName: TeleportSelect, Assembly-CSharp
-        m_MethodName: MoveToTeleport1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: trigger example
-          m_BoolArgument: 0
-        m_CallState: 2
+  teleportExit: {fileID: 204466356}
 --- !u!65 &1513715905
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21386,6 +21326,7 @@ MonoBehaviour:
           m_StringArgument: trigger example
           m_BoolArgument: 0
         m_CallState: 2
+  teleportExit: {fileID: 0}
 --- !u!65 &1677614653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21502,6 +21443,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 204466356}
   - {fileID: 480593841}
   - {fileID: 846684241}
   - {fileID: 1339613775}
@@ -21534,7 +21476,6 @@ Transform:
   - {fileID: 558811943}
   - {fileID: 316257420}
   - {fileID: 1513715901}
-  - {fileID: 204466356}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1719085186

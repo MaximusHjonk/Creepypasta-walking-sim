@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -28,6 +29,8 @@ public class EventTriggerCollider : MonoBehaviour, ILoggable
     [SerializeField] private UnityEvent triggerEvents;
 
     //Transform variable for the 'teleport exit' object 
+    public Transform teleportExit;
+
 
     //audio source varaible for playing teleport sound
 
@@ -37,13 +40,17 @@ public class EventTriggerCollider : MonoBehaviour, ILoggable
     /// OnTriggerEnter is called when a foreign collider collides with this object's collider, if isTrigger is true.
     /// </summary>
     /// <param name="other">Stores a reference to the foreign collider that has entered the trigger collider.</param>
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("Player") == true)
         {
-            //update other.transform.position to = teleport exit.position
-
-
+            //other.transform.position to = teleport exit.position
+            other.GetComponent<CharacterController>().enabled = false;
+            other.transform.position = teleportExit.position;
+            other.GetComponent<CharacterController>().enabled = true;
+            
+            
             //audio source plays the 'teleport' audio clip
 
 
