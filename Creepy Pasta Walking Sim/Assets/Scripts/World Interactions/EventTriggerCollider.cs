@@ -27,6 +27,12 @@ public class EventTriggerCollider : MonoBehaviour, ILoggable
     [Tooltip("Defines the functions that will be executed upon a trigger collision event.")]
     [SerializeField] private UnityEvent triggerEvents;
 
+    //Transform variable for the 'teleport exit' object 
+
+    //audio source varaible for playing teleport sound
+
+    //audio clip to be played when teleport happens
+
     /// <summary>
     /// OnTriggerEnter is called when a foreign collider collides with this object's collider, if isTrigger is true.
     /// </summary>
@@ -35,6 +41,12 @@ public class EventTriggerCollider : MonoBehaviour, ILoggable
     {
         if(other.CompareTag("Player") == true)
         {
+            //update other.transform.position to = teleport exit.position
+
+
+            //audio source plays the 'teleport' audio clip
+
+
             triggerEvents.Invoke();
             if (oneShot == true)
             {
