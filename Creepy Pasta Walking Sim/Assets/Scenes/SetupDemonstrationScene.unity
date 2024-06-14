@@ -12047,9 +12047,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Play Audio & Animation
-
-    (musical sting)'
+  m_Text: 
 --- !u!222 &657971216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18567,7 +18565,7 @@ Transform:
   m_GameObject: {fileID: 1204944045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.70710677, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5, y: 1, z: 3.5000002}
+  m_LocalPosition: {x: -31.16, y: -14.11, z: -10.09}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19794,13 +19792,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4344663539328266478, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
+      propertyPath: interactionClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f06a39f5196dde54f871762b1d167ca4, type: 3}
+    - target: {fileID: 4344663539328266478, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockGroup.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4344663539328266478, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockedInteractionClip
       value: 
-      objectReference: {fileID: 8300000, guid: f5fdd9575cd9ff84a8c74330175ebfd0, type: 3}
+      objectReference: {fileID: 8300000, guid: f1717c0069f6782428e703a373853ccb, type: 3}
     - target: {fileID: 4344663539328266478, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockGroup.Array.data[1]
       value: 
@@ -19830,13 +19832,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7483115440364224248, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
+      propertyPath: interactionClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f06a39f5196dde54f871762b1d167ca4, type: 3}
+    - target: {fileID: 7483115440364224248, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockGroup.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7483115440364224248, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockedInteractionClip
       value: 
-      objectReference: {fileID: 8300000, guid: f5fdd9575cd9ff84a8c74330175ebfd0, type: 3}
+      objectReference: {fileID: 8300000, guid: f1717c0069f6782428e703a373853ccb, type: 3}
     - target: {fileID: 7483115440364224248, guid: 60c24a9963f68c845a54b0ba43b3d95d, type: 3}
       propertyPath: lockGroup.Array.data[1]
       value: 
