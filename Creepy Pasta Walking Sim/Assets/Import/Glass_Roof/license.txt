@@ -1,0 +1,8 @@
+Model Information:
+* title:	Glass Roof
+* source:	https://sketchfab.com/3d-models/glass-roof-d10bea057f3541988904001ed3f0c47a
+* author:	Anom Purple Modelling (https://sketchfab.com/Anom404)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
